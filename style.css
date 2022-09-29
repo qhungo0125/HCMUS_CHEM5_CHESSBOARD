@@ -1,0 +1,38 @@
+*{
+    font: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+li{
+    display: grid;
+    place-items: center;
+    
+}
+
+.row{
+    display: flex;
+}
+
+
+.box {
+    margin: .5px;
+    width: 75px;
+    height: 75px;
+}
+
+.imgPawn{
+    width: 45px;
+    height: 100%;
+}
